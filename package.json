@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "set NODE_ENV=development&& node server.js",
-    "prod": "set NODE_ENV=production&& node server.js"
+    "prod": "set NODE_ENV=production&& node server.js",
+    "test": "jest"
   },
   "author": "Rahil Hussain Shaikh",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "dotenv": "^16.4.5",
     "latest": "^0.2.0",
     "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
