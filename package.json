@@ -13,7 +13,10 @@
   "author": "Rahil Hussain Shaikh",
   "license": "ISC",
   "dependencies": {
+    "20": "^3.1.9",
     "@simplewebauthn/browser": "^10.0.0",
+    "@simplewebauthn/server": "^10.0.1",
+    "cookie": "^0.6.0",
     "dotenv": "^16.4.5",
     "latest": "^0.2.0",
     "node-fetch": "^2.7.0"
@@ -26,5 +29,8 @@
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
+  },
+  "browser": {
+    "crypto": false
   }
 }
